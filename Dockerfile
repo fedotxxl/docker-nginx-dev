@@ -7,6 +7,7 @@
 
 FROM phusion/baseimage
 
+# add sources of nginx-upload-module to root of this project
 RUN mkdir /docker-build/
 ADD nginx-upload-module /docker-build/nginx-upload-module
 
