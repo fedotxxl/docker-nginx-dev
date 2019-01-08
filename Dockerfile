@@ -1,4 +1,4 @@
-# docker build -t fbelov/nginx-dev .
+# docker build -t fbelov/nginx-dev-upload .
 # docker push fbelov/nginx-dev
 
 #to run this container use
