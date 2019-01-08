@@ -1,5 +1,5 @@
 # docker build -t fbelov/nginx-dev-upload .
-# docker push fbelov/nginx-dev
+# docker push fbelov/nginx-dev-upload
 
 #to run this container use
 #docker run --net=host -t -v /job_on_current_machine/:/job fbelov/nginx-dev &
