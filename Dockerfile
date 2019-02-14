@@ -21,6 +21,9 @@ ADD Dockerfile /Dockerfile
 RUN apt-get update
 RUN apt-get install openssh-server -y
 
+#anacron - fix problem with not working cron
+RUN apt-get install anacron -y
+
 #nginx build
 #http://blog.thehippo.de/2012/12/server/install-nginx-from-source-on-ubuntu/
 RUN apt-get -y install wget build-essential zlib1g-dev libpcre3-dev libssl-dev libxslt1-dev libxml2-dev libgd2-xpm-dev libgeoip-dev libgoogle-perftools-dev libperl-dev
